@@ -15,7 +15,7 @@ function App() {
       <SocialMedia />
 			<Routes>
 				{/* <Route path='/' element={<Main />} /> */}
-				<Route path='/' element={<BenefitsBlock />} />
+				{/* <Route path='/' element={<BenefitsBlock />} /> */}
 				{/* <Route path='/' element={<CapsuleBlock />} /> */}
 
 				<Route path='/ecosystem' element={<div>Ecosystem</div>} />
