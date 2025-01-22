@@ -1,0 +1,28 @@
+.benefits-block {
+	&__content {
+		margin-top: 56px;
+		display: flex;
+		flex-direction: column;
+		width: 260px;
+	}
+
+	&__title {
+		color: #020011;
+		font-family: Whyte Inktrap;
+		font-size: 32px;
+		font-weight: 500;
+	}
+
+	&__description {
+		margin-top: 16px;
+		color: #12120f;
+		font-weight: 500;
+		font-size: 16px;
+	}
+
+	&__actions {
+		margin-top: 303px;
+		display: flex;
+		gap: 25px;
+	}
+}
