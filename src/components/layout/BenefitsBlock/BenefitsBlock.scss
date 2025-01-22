@@ -1,4 +1,7 @@
 .benefits-block {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+
 	&__content {
 		margin-top: 56px;
 		display: flex;
@@ -25,4 +28,9 @@
 		display: flex;
 		gap: 25px;
 	}
+}
+
+.swiper-container {
+	margin-top: 200px;
+	margin-left: 350px
 }

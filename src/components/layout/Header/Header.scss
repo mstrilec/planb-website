@@ -34,9 +34,13 @@
 			&-link {
 				text-decoration: none;
 				color: inherit;
-
-				&:hover {
-					text-decoration: underline;
+				text-decoration: underline;
+				text-decoration-thickness: 2px;
+				text-decoration-color: transparent;
+				transition: all 0.3s ease-in-out;
+	
+				&:hover, &--active {
+					text-decoration-color: #ee4503;
 				}
 			}
 		}
@@ -53,19 +57,35 @@
 			justify-content: center;
 			align-items: center;
 			gap: 8px;
-			color: var(--Neutral-00, #020011);
+			color: #020011;
 			position: relative;
 			cursor: pointer;
 			font-size: 16px;
 			line-height: 120%;
+			text-decoration: underline;
+			text-decoration-thickness: 2px;
+			text-decoration-color: transparent;
+			transition: all 0.3s ease-in-out;
 
-			&:hover .header__submenu {
+			&:hover, &--active {
+				text-decoration-color: #ee4503;
+			}
+
+			&--active .header__submenu {
 				display: flex;
+			}
+
+			&--active .header__menu-item-icon {
+				transform: rotate(180deg);
 			}
 
 			&-icon {
 				height: 14px;
 				width: 14px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				transition: transform 0.3s ease;
 			}
 		}
 	}

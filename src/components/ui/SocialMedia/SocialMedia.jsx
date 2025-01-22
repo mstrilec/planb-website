@@ -3,9 +3,9 @@ import { ReactSVG } from 'react-svg'
 import { MEDIA } from './socialMedia.data'
 import './SocialMedia.scss'
 
-export const SocialMedia = () => {
+export const SocialMedia = ({ styles }) => {
 	return (
-		<div className='social-media'>
+		<div className='social-media' style={styles}>
 			{MEDIA.map((item, index) => (
 				<a
 					key={index}

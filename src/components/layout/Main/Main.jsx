@@ -1,8 +1,8 @@
 import React from 'react'
-import './Main.scss'
 import { SplineCube } from '../../ui/SplineCube/SplineCube'
-import { ReactSVG } from 'react-svg'
-import bitcoin from '../../../assets/bitcoin.svg'
+import { BenefitsBlock } from '../BenefitsBlock/BenefitsBlock'
+import './Main.scss'
+import { ReadyBlock } from '../ReadyBlock/ReadyBlock'
 
 export const Main = () => {
 	return (
@@ -12,6 +12,8 @@ export const Main = () => {
 				<SplineCube />
 				{/* <ReactSVG className='main__content-bitcoin' src={bitcoin} /> */}
 			</div>
+			<BenefitsBlock />
+			<ReadyBlock />
 		</main>
 	)
 }

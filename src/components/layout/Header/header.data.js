@@ -1,25 +1,43 @@
 export const MENU = [
 	{
 		name: 'Ecosystem',
+		subMenu: [
+			{
+				name: 'Stake',
+				link: '/stake'
+			},
+			{
+				name: 'Apps',
+				link: '/apps'
+			}
+		]
 	},
 	{
 		name: 'Learn',
 		subMenu: [
 			{
-				name: 'Communities',
-				link: '/communities'
+				name: 'Taken Concept',
+				link: '/taken-concept'
 			},
 			{
-				name: 'Blog',
-				link: '/blog'
+				name: 'Roadmap',
+				link: '/roadmap'
 			},
 			{
-				name: 'TON Research',
-				link: '/ton-research',
+				name: 'Chain Explorer',
+				link: '/chain-explorer',
 			},
 			{
-				name: 'Bug Bounty',
-				link: '/bug-bounty',
+				name: 'History mining',
+				link: '/history-mining',
+			},
+			{
+				name: 'Validators',
+				link: '/validators',
+			},
+			{
+				name: 'White Paper',
+				link: '/white-paper',
 			},
 		]
 	},
@@ -31,8 +49,8 @@ export const MENU = [
 				link: '/communities'
 			},
 			{
-				name: 'Blog',
-				link: '/blog'
+				name: 'Documentation',
+				link: '/documentation'
 			},
 			{
 				name: 'TON Research',
@@ -48,21 +66,13 @@ export const MENU = [
 		name: 'Community',
 		subMenu: [
 			{
-				name: 'Communities',
-				link: '/communities'
-			},
-			{
 				name: 'Blog',
 				link: '/blog'
 			},
 			{
-				name: 'TON Research',
-				link: '/ton-research',
-			},
-			{
-				name: 'Bug Bounty',
-				link: '/bug-bounty',
-			},
+				name: 'Communities',
+				link: '/communities'
+			}
 		]
 	}
 ]

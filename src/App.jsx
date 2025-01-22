@@ -6,6 +6,7 @@ import { Navigation } from './components/ui/Navigation/Navigation'
 import { SocialMedia } from './components/ui/SocialMedia/SocialMedia'
 import { CapsuleBlock } from './components/layout/CapsuleBlock/CapsuleBlock'
 import { BenefitsBlock } from './components/layout/BenefitsBlock/BenefitsBlock'
+import { Footer } from './components/layout/Footer/Footer'
 
 function App() {
 	return (
@@ -14,12 +15,11 @@ function App() {
       <Navigation />
       <SocialMedia />
 			<Routes>
-				{/* <Route path='/' element={<Main />} /> */}
-				{/* <Route path='/' element={<BenefitsBlock />} /> */}
-				{/* <Route path='/' element={<CapsuleBlock />} /> */}
+				<Route path='/' element={<Main />} />
 
 				<Route path='/ecosystem' element={<div>Ecosystem</div>} />
 			</Routes>
+      <Footer />
 		</>
 	)
 }

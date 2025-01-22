@@ -11,6 +11,12 @@
 	align-items: center;
 	justify-content: center;
 
+	& > div > div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
   &--primary {
     background-color: #ee4503;
 
